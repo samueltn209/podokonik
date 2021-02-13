@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-30 11:37+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: order/models.py:11
+msgid "first name"
+msgstr "Имя"
+
+#: order/models.py:12
+msgid "last name"
+msgstr "Фамилия"
+
+#: order/models.py:13
+msgid "e-mail"
+msgstr "e-mail"
+
+#: order/models.py:14
+msgid "address"
+msgstr "Адресс"
+
+#: order/models.py:15
+msgid "postal code"
+msgstr "Почтовый индекс"
+
+#: order/models.py:16
+msgid "city"
+msgstr "Город"
+
+#: order/templates/orders/order/create.html:4
+#: order/templates/orders/order/create.html:8
+#: order/templates/orders/order/create.html:11
+msgid "Ваш заказ"
+msgstr "Your order"
+
+#: order/templates/orders/order/create.html:21
+#, python-format
+msgid ""
+"\n"
+"\"%(code)s\" (%(discount)s%% off)\n"
+msgstr ""
+
+#: order/templates/orders/order/create.html:28
+msgid "Общая цена"
+msgstr "Total"
+
+#: order/templates/orders/order/create.html:33
+msgid "Отправить заказ"
+msgstr "Place order"
+
+#~ msgid "Заказ"
+#~ msgstr "Order"
